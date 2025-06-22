@@ -1,0 +1,41 @@
+.cover__subtitle {
+  position: absolute;
+  line-height: 22px;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+
+  @media (min-width: 1280px) {
+    left: 412px;
+    top: 429px;
+    right: 412px;
+  }
+
+  @media (max-width: 1280px) {
+    left: 332px;
+    top: 379px;
+    right: 332px;
+  }
+
+  @media (max-width: 1024px) {
+    left: 204px;
+    top: 299px;
+    right: 204px;
+  }
+
+  @media (max-width: 768px) {
+    line-height: 18px;
+    font-size: 16px;
+    left: 60px;
+    top: 180px;
+    right: 60px;
+  }
+
+  @media (max-width: 425px) {
+    line-height: 16px;
+    font-size: 14px;
+    left: 16px;
+    top: 119px;
+    right: 16px;
+  }
+}

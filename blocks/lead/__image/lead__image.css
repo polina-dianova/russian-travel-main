@@ -1,0 +1,24 @@
+.lead__image {
+  width: 100%;
+  object-fit: cover;
+
+  @media (min-width: 1280px) {
+    margin-top: 64px;
+  }
+
+  @media (max-width: 1279px) {
+    margin-top: 56px;
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 56px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 48px;
+  }
+
+  @media (max-width: 425px) {
+    margin-top: 40px;
+  }
+}

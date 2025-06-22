@@ -1,0 +1,11 @@
+.place__website {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: end;
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+}

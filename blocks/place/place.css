@@ -1,0 +1,16 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  justify-content: space-between;
+
+  @media (max-width: 650px) {
+    row-gap: 32px;
+  }
+}
+
+@media (max-width: 650px) {
+  .place > *:not(.place__image) {
+    margin: 0 16px;
+  }
+}
